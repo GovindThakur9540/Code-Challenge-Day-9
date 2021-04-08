@@ -10,6 +10,12 @@
 const areaOrPerimeter = function(l , w) {
       //your code here
     
+      if(l==w){
+        return l*w;
+      }
+      else{
+        return 2*(l+w)
+      }
   }
 
 //Use SpecRunner to check the Test Cases.
